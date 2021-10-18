@@ -3,6 +3,11 @@ function scan(arg){
  while(can<arg.length){
     if(arg[can]==='contraband'){
       c++;
+    }else{
+      //copy
+      if(arg[can]==='logan' || arg[can]==='lOGAN' ){
+        c--;
+      }
     }
    can++;
  }
